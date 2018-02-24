@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(53, 53, 53);
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    height: 100%;
+}
+
+.navbar {
+    height: 150px;
+    margin-bottom: 0px;
+    box-shadow: 0 5px 8px -4px black;
+    background-color: white;
+}
+
+.navbar-header {
+    height: 100%;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+    height: 100%;
+}
+
+.title {
+    color: white;
+    font-size: 100px;
+}
+
+p {
+    font-size: 40px;
+}
+
+* {
+    color: white;
+}

@@ -1,0 +1,87 @@
+h2 {
+    font-size: 90px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+#song-search-form input {
+    height: 100px;
+    font-size: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.container {
+    width: 80%;
+}
+
+.btn {
+    border-radius: 20px;
+    float: right;
+    height: 80px;
+    width: 125px;
+}
+
+.glyphicon-search {
+    font-size: 60px;
+}
+
+.songs-list {
+    border: solid black 3px;
+}
+
+.track {
+    font-size: 50px;
+}
+
+.artist {
+    font-size: 40px;
+}
+
+hr {
+    border-width: 5px;
+    border-color: rgb(44, 44, 44);
+    border-radius: 5px;
+}
+
+* {
+    color: white;
+}
+
+.add-btn {
+    width: 8%;
+    background-color: transparent;
+    border: none;
+}
+
+.glyphicon-plus {
+    color: #E00DD5;
+    font-size: 70px;
+}
+
+#results {
+    padding-top: 20px;
+}
+
+.alert{
+    position: fixed;
+    bottom: 5px;
+    left:2%;
+    width: 96%;
+    height: 100px;
+    font-size: 50px;
+    text-align: center;
+    opacity: 1;
+    transition: 2s linear;
+}
+
+.alert span {
+    color: white;
+    margin: auto;
+}
+
+.hidden {
+    opacity: 0;
+    transition: 2s linear;
+}
