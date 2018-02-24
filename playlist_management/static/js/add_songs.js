@@ -21,7 +21,7 @@ function getCookie(c_name)
 }
 
 function songAddedAlert(msg) {
-    var toggle = () => $('#song-added-alert').toggleClass('show');
+    var toggle = () => $('#song-added-alert').toggleClass('alert__hidden');
     toggle();
     setTimeout(function(){
         toggle()
