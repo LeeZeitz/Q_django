@@ -85,7 +85,3 @@ hr {
     opacity: 0;
     transition: 2s linear;
 }
-
-.show {
-    opacity: 1;
-}
